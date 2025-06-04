@@ -1,0 +1,343 @@
+@font-face {
+    font-family:"Italia";
+    src: url(../FONTS/Italiana-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+/*---------------------------------------------------------------*/
+
+/*Inicio*/
+
+/*Geral*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: italia, serif;
+    letter-spacing: 1px;
+    overflow-x: hidden;
+}
+
+/*Nav*/
+.navbar{
+    display: flex;
+    padding: 8vh;
+    background-color: #222222;
+}
+.navbar-list{
+    display: flex;
+    list-style: none;
+    margin-left: 10px;
+}
+.link-item{
+    font-family: italia, serif;
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+    text-decoration: none;
+    transition: 3s;
+    text-shadow: white 0.1em 0.1em 0.2em;
+}
+.link-item:hover{
+    color: cornflowerblue;
+}
+.link-item:not(:last-child){
+    border-left: #d3d3d3;
+}
+
+/*Header*/
+.header{
+    height: 75vh;
+    background-image: url("../IMG/Header1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+/*Titúlo*/
+.title {
+    padding-top: 14vh;
+    font-size: 180px; 
+    margin: 0; 
+    transition: 1s;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.545);
+    user-select: none;
+}
+.title:hover{
+    color: black;
+    text-shadow: 0.1em 0.1em 0.2em rgba(255, 255, 255, 0.537);
+}
+.subtitle {
+    font-size: 50px;
+    margin: 0;
+    transition: 1s;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.545);
+    user-select: none;
+}
+.subtitle:hover{
+    color: black;
+    text-shadow: 0.1em 0.1em 0.2em rgba(255, 255, 255, 0.537);
+}
+
+/*Main*/
+.info-container{
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #d3d3d3;
+    overflow-y: hidden;
+}
+.div-bar{
+    height: 10vh;
+    background-color: #222222;
+}
+
+/*Texto*/
+.texts{
+    text-align: center;
+    color: #222222;
+}
+.title-text{
+    border-bottom: 2px solid #222222;
+    border-width: 50%;
+    margin-right: 55%;
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #000;
+    font-size: 45px;
+    text-shadow: 1px 1px 2px black;
+}
+.text1{
+    font-size: 20px;
+    background-color: white;
+    padding: 20px 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 80%;
+    margin: 0 auto;
+    text-shadow: 1px 1px 2px gray;
+    box-shadow: 3px 3px #2222224f;
+    border-radius: 5px;
+}
+
+.subtitle-text{
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-align:left;
+    color: black;
+    text-shadow: 1px 1px 2px black;
+}
+
+/*Fotter*/
+.rdp{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: #222222;
+    text-align: center;
+}
+.rdp-list{
+    display: flex;
+    list-style: none;
+}
+.rdp-item{
+    padding-left: 40px;
+}
+.rdp-links{
+    font-family: italia, serif;
+    text-decoration: none;
+    color: cornflowerblue;
+    transition: 1,5s;
+    cursor: pointer;
+}
+.rdp-links:hover{
+    color: white;
+}
+
+/*---------------------------------------------------------------*/
+
+/*Características*/
+
+/*Header*/
+.header-pag1{
+    height: 75vh;
+    background-image: url("../IMG/Header-pag2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.title-pag1{
+    padding-top: 26vh;
+    font-size: 100px; 
+    margin: 0; 
+    transition: 1s;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.545);
+    user-select: none;
+}
+.title-pag1:hover{
+    color: cornflowerblue;
+    text-shadow: 0.1em 0.1em 0.2em rgba(255, 255, 255, 0.537);
+}
+
+/*Texto*/
+.if-ct-pag1{
+    height: 515vh;
+}
+
+/*---------------------------------------------------------------*/
+
+/*Computadores*/
+
+/*Header*/
+.header-pag2{
+    height: 75vh;
+    background-image: url("../IMG/Header-pag3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.title-pag2{
+    padding-top: 26vh;
+    font-size: 100px; 
+    margin: 0; 
+    transition: 1s;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.545);
+    user-select: none;
+}
+.title-pag2:hover{
+    color: cornflowerblue;
+    text-shadow: 0.1em 0.1em 0.2em rgba(255, 255, 255, 0.537);
+}
+
+
+/*Texto*/
+.if-ct-pag2{
+    height: 772vh;
+}
+.img-cont{
+    width: 100%;
+    height: 80vh;
+    opacity: 0,4;
+}
+.title-bar{
+    margin-top: 7vh;
+    display: flex;
+    padding: 6vh;
+    background-color: #222222;
+}
+.title-bar h1{
+    text-align: left;
+    color: #ffffff;
+    font-size: 45px;
+    transition: 3s;
+    padding-right: 20px;
+    user-select: none;
+}
+.title-bar h1:hover{
+    color: cornflowerblue;
+    text-shadow: 0.1em 0.1em 0.2em rgba(255, 255, 255, 0.537);
+}
+.text2{
+    font-size: 20px;
+    background-color: white;
+    padding: 20px 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4vh;
+    text-shadow: 1px 1px 2px gray;
+    box-shadow: 3px 3px #2222224f;
+    border-radius: 5px;
+}
+
+/*---------------------------------------------------------------*/
+
+/*Comparações*/
+
+/*Header*/
+.header-pag3{
+    height: 75vh;
+    background-image: url("../IMG/Header-pag5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.title-pag3{
+    padding-top: 26vh;
+    font-size: 100px; 
+    margin: 0; 
+    transition: 1s;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.545);
+    user-select: none;
+}
+.title-pag3:hover{
+    color: cornflowerblue;
+    text-shadow: 0.1em 0.1em 0.2em rgba(255, 255, 255, 0.537);
+}
+
+/*Texto*/
+.if-ct-pag3{
+    height: 217vh;
+}
+
+/*---------------------------------------------------------------*/
+
+/*Impacto*/
+
+/*Header*/
+.header-pag4{
+    height: 75vh;
+    background-image: url("../IMG/Header-pag4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.title-pag4{
+    padding-top: 26vh;
+    font-size: 100px; 
+    margin: 0; 
+    transition: 1s;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.545);
+    user-select: none;
+}
+.title-pag4:hover{
+    color: cornflowerblue;
+    text-shadow: 0.1em 0.1em 0.2em rgba(255, 255, 255, 0.537);
+}
+
+/*Texto*/
+.if-ct-pag4{
+    height: 710vh;
+}
+.div-text-bar{
+    height: 5vh;
+    margin-top:5vh ;
+    background-color: #222222;
+}
